@@ -242,10 +242,10 @@
   
     nav ul {
       
-      gap: 15px;
+      gap: 12px;
     }
     body {
-      padding: 8px; /* Juste un ajustement de padding pour les petits écrans, sans modifier la structure */
+      padding: 10px; /* Juste un ajustement de padding pour les petits écrans, sans modifier la structure */
   }
   }
   
