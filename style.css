@@ -1,5 +1,8 @@
 /* Reset CSS */
+
+
 /* About Section Photo Styling */
+
 .profile-photo {
     width: 150px;
     height: 150px;
@@ -7,22 +10,22 @@
     object-fit: cover;
     margin-bottom: 20px;
     border: 4px solid #f39c12;
-  }
-  
-  .about-container {
+}
+
+.about-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-  }
-  
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     color: #333;
@@ -30,10 +33,12 @@
     background-color: #f9f9f9;
     padding: 0 20px;
     scroll-behavior: smooth;
-  }
-  
-  /* Header Styling */
-  header {
+}
+
+
+/* Header Styling */
+
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -44,51 +49,55 @@
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-  }
+}
 
-  nav ul {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 30px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
     transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
+}
+
+nav ul li a:hover {
     color: #f39c12;
-  }
-  
-  /* Section Styling */
-  section {
+}
+
+
+/* Section Styling */
+
+section {
     padding: 80px 0;
     text-align: center;
-  }
-  
-  /* Home Section */
-  #home {
+}
+
+
+/* Home Section */
+
+#home {
     background-color: #f4f4f4;
     padding: 100px 0;
-  }
-  
-  .intro h1 {
+}
+
+.intro h1 {
     font-size: 3rem;
     color: #333;
-  }
-  
-  .intro p {
+}
+
+.intro p {
     font-size: 1.5rem;
     color: #777;
     margin-top: 10px;
-  }
-  
-  .cta {
+}
+
+.cta {
     margin-top: 20px;
     padding: 12px 25px;
     font-size: 1rem;
@@ -98,66 +107,72 @@
     border-radius: 25px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
-  
-  .cta:hover {
+}
+
+.cta:hover {
     background-color: #e67e22;
-  }
-  
-  /* About Section */
-  #about p {
+}
+
+
+/* About Section */
+
+#about p {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.2rem;
     color: #555;
     line-height: 1.8;
-  }
-  
-  /* Projects Section */
-  #projects {
+}
+
+
+/* Projects Section */
+
+#projects {
     background-color: #fff;
-  }
-  
-  .project-list {
+}
+
+.project-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     max-width: 1000px;
     margin: 0 auto;
-  }
-  
-  .project {
+}
+
+.project {
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     width: 300px;
     transition: transform 0.3s ease;
-  }
-  
-  .project:hover {
+}
+
+.project:hover {
     transform: translateY(-10px);
-  }
-  
-  .project h3 {
+}
+
+.project h3 {
     color: #333;
     margin-bottom: 10px;
-  }
-  
-  .project p {
+}
+
+.project p {
     color: #777;
-  }
-  
-  /* Skills Section */
-  #skills ul {
+}
+
+
+/* Skills Section */
+
+#skills ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
-  
-  #skills ul li {
+}
+
+#skills ul li {
     list-style: none;
     background-color: #f39c12;
     padding: 15px 30px;
@@ -165,34 +180,37 @@
     color: #fff;
     font-weight: 500;
     transition: background-color 0.3s ease;
-  }
-  
-  #skills ul li:hover {
+}
+
+#skills ul li:hover {
     background-color: #e67e22;
-  }
-  
-  /* Contact Section */
-  #contact form {
+}
+
+
+/* Contact Section */
+
+#contact form {
     max-width: 600px;
     margin: 0 auto;
-  }
-  
-  form label {
+}
+
+form label {
     display: block;
     margin-bottom: 5px;
     color: #333;
-  }
-  
-  form input, form textarea {
+}
+
+form input,
+form textarea {
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 1rem;
-  }
-  
-  form button {
+}
+
+form button {
     padding: 15px 30px;
     background-color: #f39c12;
     border: none;
@@ -201,54 +219,57 @@
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  form button:hover {
+}
+
+form button:hover {
     background-color: #e67e22;
-  }
-  
-  /* Footer */
-  footer {
+}
+
+
+/* Footer */
+
+footer {
     text-align: center;
     padding: 30px 0;
     background-color: #222;
     color: #fff;
     font-size: 0.9rem;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin: 0;
-  }
-  
-  footer a {
+}
+
+footer a {
     color: #f39c12;
     text-decoration: none;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     text-decoration: underline;
-  }
-  
-  /* Media Queries for Responsive Design */
-  @media (max-width: 768px) {
+}
+
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
     .project-list {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
     .project {
-      width: 90%;
+        width: 90%;
     }
-  
     nav ul {
-      
-      gap: 12px;
+        gap: 12px;
     }
     body {
-      padding: 10px; /* Juste un ajustement de padding pour les petits écrans, sans modifier la structure */
-  }
-  }
-  .project-image {
+        padding: 10px;
+        /* Juste un ajustement de padding pour les petits écrans, sans modifier la structure */
+    }
+}
+
+.project-image {
     width: 100%;
     max-width: 300px;
     margin-top: 15px;
@@ -256,16 +277,16 @@
 }
 
 .download-link {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 15px;
-  background-color: #f39c12;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .download-link:hover {
-  background-color: #e67e22;
+    background-color: #e67e22;
 }
